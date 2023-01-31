@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header class="header container">
+      <img class="header__logo" src="../img/icon/logo.png" alt="logo" />
+      <ul class="header__list header__list__nav">
+        <li class="header__list__item undotted">
+          <a class="header__list__link" aria-label="Переход на страницу каталога" href="#">Catalog</a>
+        </li>
+        <li class="header__list__item undotted">
+          <a class="header__list__link" href="#">Servises</a>
+        </li>
+        <li class="header__list__item undotted">
+          <a class="header__list__link active" href="#">Blog</a>
+        </li>
+        <li class="header__list__item undotted">
+          <a class="header__list__link" href="#">About us</a>
+        </li>
+      </ul>
+      <ul class="header__list contact">
+        <li class="header__list__item undotted">
+          <a class="header__list__link header__list__link-contact" href="#"
+            >719-431-9698</a
+          >
+        </li>
+        <li class="header__list__item undotted">
+          <a class="header__list__link btn" href="../pages/contact.html"
+            >Contact Us</a
+          >
+        </li>
+      </ul>
+    </header>
+    <main>
+      <div class="container">
+        <h1 class="title">Contact Us</h1>
+        <form action="" class="form form__wrap">
+          <div class="form__column">
+            <div class="form__wrapper-input">
+              <label for="name" class="form__label">Name</label>
+              <input type="text" id="name" class="form__input" placeholder="Ivan Ivanov">
+            </div>
+            <div class="form__wrapper-input">
+              <label for="phone" class="form__label">Phone</label>
+              <input type="tel" id="phone" class="form__input">
+            </div>
+          </div>
+            <div class="form__wrapper-input">
+              <label for="email" class="form__label">Email</label>
+              <input type="email" id="email"  class="form__input-email">
+            </div>
+            <fieldset class="form__payment">
+              <legend class="form__payment-title">Payment Methods</legend>
+              <ul class="form__payment-list">
+                <li class="form__payment-item undotted">
+                  <input type="checkbox" id="cash" name="payment" class="form__payment-input"/>
+                  <label for="cash" class="form__payment-label">Сash</label>
+                </li>
+                <li class="form__payment-item undotted">
+                  <input type="checkbox" id="credit" name="payment" class="form__payment-input"/>
+                  <label for="credit" class="form__payment-label">Сredit Сard</label>
+                </li>
+                <li class="form__payment-item undotted">
+                  <input type="checkbox" id="receipt" name="payment" class="form__payment-input"/>
+                  <label for="receipt" class="form__payment-label">Receipt</label>
+                </li>
+              </ul>
+            </fieldset>
+            <div class="form__wrapper">
+              <label for="city"
+                >City of Birth<input type="text" id="city"
+              /></label>
+            </div>
+            <fieldset class="form__feedback">
+              <legend class="form__feedback-title">
+                Do you need a report on the services provided?
+              </legend>
+              <ul class="form__feedback-list">
+                <li class="form__feedback-item undotted">
+                  <label for="Yes">Yes</label>
+                  <input type="radio" id="Yes" name="feedback" />
+                </li>
+                <li class="form__feedback-item undotted">
+                  <label for="No">No</label>
+                  <input type="radio" id="No" name="feedback" />
+                </li>
+              </ul>
+            </fieldset>
+            <div class="form__wrapper">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <button type="submit">SUBMIT</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <section class="contact">
+        <div class="contact__card-wrapper">
+          <ul class="contact__list">
+            <li class="contact__list__item undotted">
+              <h2 class="contact__title">Chem-Dry</h2>
+            </li>
+            <li class="contact__list__item undotted">
+              <p class="contact__adress">9420 Cedar CT, Thornton, CO 80229</p>
+            </li>
+            <li class="contact__list__item undotted">
+              <a class="contact__list__phone" href="#">719-431-9698</a>
+            </li>
+            <li class="contact__list__item undotted">
+              <a class="contact__list__link btn" href="#">Learn More</a>
+            </li>
+          </ul>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148.28448176746903!2d49.290159356477304!3d53.51220305625003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41687981eb77e79b%3A0xc6236db15e1d074e!2z0L_RgC4g0KHRgtC10L_QsNC90LAg0KDQsNC30LjQvdCwLCA0NCwg0KLQvtC70YzRj9GC0YLQuCwg0KHQsNC80LDRgNGB0LrQsNGPINC-0LHQuy4sIDQ0NTAyNw!5e0!3m2!1sru!2sru!4v1670947664241!5m2!1sru!2sru"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <section class="footer__inner container">
+        <h2 class="footer__title">Subscribe to our social networks</h2>
+        <ul class="footer__list">
+          <li class="footer__list__item undotted">
+            <a class="footer__list__link" href="#"
+              ><img
+                class="footer__list__img"
+                src="../img/icon/facebook.svg"
+                alt="social networks"
+            /></a>
+          </li>
+          <li class="footer__list__item undotted">
+            <a class="footer__list__link" href="#"
+              ><img
+                class="footer__list__img"
+                src="../img/icon/facebook.svg"
+                alt="social networks"
+            /></a>
+          </li>
+          <li class="footer__list__item undotted">
+            <a class="footer__list__link" href="#"
+              ><img
+                class="footer__list__img"
+                src="../img/icon/facebook.svg"
+                alt="social networks"
+            /></a>
+          </li>
+          <li class="footer__list__item undotted">
+            <a class="footer__list__link" href="#"
+              ><img
+                class="footer__list__img"
+                src="../img/icon/facebook.svg"
+                alt="social networks"
+            /></a>
+          </li>
+          <li class="footer__list__item undotted">
+            <a class="footer__list__link" href="#"
+              ><img
+                class="footer__list__img"
+                src="../img/icon/facebook.svg"
+                alt="social networks"
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>

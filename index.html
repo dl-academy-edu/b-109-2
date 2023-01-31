@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Main page</title>
+  </head>
+  <body>
+    <header class="header container">
+      <img class="header__logo" src="./img/icon/logo.png" alt="logo" />
+      <ul class="header__list header__list__nav">
+        <li class="header__list__item undotted">
+          <a class="header__list__link" aria-label="Переход на страницу каталога" href="#">Catalog</a>
+        </li>
+        <li class="header__list__item undotted">
+          <a class="header__list__link" aria-label="Переход на страницу сервис" href="#">Servises</a>
+        </li>
+        <li class="header__list__item undotted">
+          <a class="header__list__link active" aria-label="Переход на страницу блога" href="#">Blog</a>
+        </li>
+        <li class="header__list__item undotted">
+          <a class="header__list__link" aria-label="Переход на страницу о нас" href="#">About us</a>
+        </li>
+      </ul>
+      <ul class="header__list contact">
+        <li class="header__list__item undotted">
+          <a class="header__list__link header__list__link-contact" aria-label="Ссылка номера телефона" href="#"
+            >719-431-9698</a
+          >
+        </li>
+        <li class="header__list__item undotted">
+          <a class="header__list__link btn" aria-label="Переход на страницу контактов" href="./pages/contact.html"
+            >Contact Us</a
+          >
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="container">
+          <h1 class="banner__title">The world’s leading cleaning company</h1>
+          <button class="banner__btn banner__btn-js" type="button" aria-label="Открывает всплывающее окно">Get a Free Estimate</button>
+        </div>
+      </section>
+      <section class="servises container">
+        <h2 class="servises__title">OUR MOST POPULAR SERVICES</h2>
+        <ul class="servises__list">
+          <li class="servises__list__item undotted">
+            <img
+              class="servises__list__image"
+              src="./img/servises-one.jpg"
+              alt="Servises"
+            />
+            <p class="servises__list__title">Carpet Cleaning</p>
+            <p class="servises__list__description">
+              When you choose Chem-Dry, you get deeper clean, faster-drying
+              carpet and healthier home for you.
+            </p>
+            <a class="servises__list__link btn" href="#">Learn More</a>
+          </li>
+          <li class="servises__list__item undotted">
+            <img
+              class="servises__list__image"
+              src="./img/servises-two.jpg"
+              alt="Servises"
+            />
+            <p class="servises__list__title">Tile & Grout Cleaning</p>
+            <p class="servises__list__description">
+              One of the nicest touches to the basic architectural components of
+              a homeis ceramic or stone tile in kitchens, bathrooms
+            </p>
+            <a class="servises__list__link btn" href="#">Learn More</a>
+          </li>
+          <li class="servises__list__item undotted">
+            <img
+              class="servises__list__image"
+              src="./img/servises-one.jpg"
+              alt="Servises"
+            />
+            <p class="servises__list__title">Carpet Cleaning</p>
+            <p class="servises__list__description">
+              When you choose Chem-Dry, you get deeper clean, faster-drying
+              carpet and healthier home for you.
+            </p>
+            <a class="servises__list__link btn" href="#">Learn More</a>
+          </li>
+          <li class="servises__list__item undotted">
+            <img
+              class="servises__list__image"
+              src="./img/servises-one.jpg"
+              alt="Servises"
+            />
+            <p class="servises__list__title">Carpet Cleaning</p>
+            <p class="servises__list__description">
+              When you choose Chem-Dry, you get deeper clean, faster-drying
+              carpet and healthier home for you.
+            </p>
+            <a class="servises__list__link btn" href="#">Learn More</a>
+          </li>
+          <li class="servises__list__item undotted">
+            <img
+              class="servises__list__image"
+              src="./img/servises-three.jpg"
+              alt="Servises"
+            />
+            <p class="servises__list__title">Pet Stain Removal</p>
+            <p class="servises__list__description">
+              Here at Chem-Dry, we love our pets. They brighten up our day and
+              they’re always there to support us, through thick
+            </p>
+            <a class="servises__list__link btn" href="#">Learn More</a>
+          </li>
+          <li class="servises__list__item undotted">
+            <img
+              class="servises__list__image"
+              src="./img/servises-four.jpg"
+              alt="Servises"
+            />
+            <p class="servises__list__title">Commercial Cleaning</p>
+            <p class="servises__list__description">
+              Companies spend millions of dollars on carpeting, upholstery,
+              leather and area rugs
+            </p>
+            <a class="servises__list__link btn" href="#">Learn More</a>
+          </li>
+        </ul>
+      </section>
+      <section class="about container">
+        <ul class="about__list">
+          <li class="about__list__item undotted">
+            <h2 class="about__list__title">Why Haley’s Chem-Dry?</h2>
+          </li>
+          <li class="about__list__item undotted">
+            <p class="about__list__desc">
+              Chem-Dry’s mission is helping people live healthy lives, which
+              starts with clean carpets and a healthy home. Our proprietary hot
+              carbonating extraction cleaning process penetrates deep into the
+              fibers, removing an average of 98% of common household allergens
+              from carpets, upholstery and rugs and 89% of the airborne bacteria
+              in your home when a sanitizer is added.* Plus, our green-certified
+              solution, The Natural®, contains no soaps or detergents so it’s
+              safe and non-toxic for your family and pets.
+            </p>
+          </li>
+          <li class="about__list__item undotted">
+            <a class="about__list__link btn" aria-label="Переход на страницу узнать больше о миссии компании" href="#">Learn More</a>
+          </li>
+        </ul>
+        <img class="about__image" src="./img/cleaning.jpg" alt="cleaning" />
+      </section>
+      <section class="awards container">
+        <h2 class="hidden">awards</h2>
+        <ul class="awards__list">
+          <li class="awards__list__item undotted">
+            <img
+              class="awards__list__image"
+              src="./img/icon/awwwward.png"
+              alt="awards"
+            />
+          </li>
+          <li class="awards__list__item undotted">
+            <img
+              class="awards__list__image"
+              src="./img/icon/awwwward.png"
+              alt="awards"
+            />
+          </li>
+          <li class="awards__list__item undotted">
+            <img
+              class="awards__list__image"
+              src="./img/icon/awwwward.png"
+              alt="awards"
+            />
+          </li>
+          <li class="awards__list__item undotted">
+            <img
+              class="awards__list__image"
+              src="./img/icon/awwwward.png"
+              alt="awards"
+            />
+          </li>
+          <li class="awards__list__item undotted">
+            <img
+              class="awards__list__image"
+              src="./img/icon/awwwward.png"
+              alt="awards"
+            />
+          </li>
+          <li class="awards__list__item undotted">
+            <img
+              class="awards__list__image"
+              src="./img/icon/awwwward.png"
+              alt="awards"
+            />
+          </li>
+          <li class="awards__list__item undotted">
+            <img
+              class="awards__list__image"
+              src="./img/icon/awwwward.png"
+              alt="awards"
+            />
+          </li>
+          <li class="awards__list__item undotted">
+            <img
+              class="awards__list__image"
+              src="./img/icon/awwwward.png"
+              alt="awards"
+            />
+          </li>
+          <li class="awards__list__item undotted">
+            <img
+              class="awards__list__image"
+              src="./img/icon/awwwward.png"
+              alt="awards"
+            />
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="contact">
+        <div class="contact__card-wrapper">
+          <ul class="contact__list">
+            <li class="contact__list__item undotted">
+              <h2 class="contact__title">Chem-Dry</h2>
+            </li>
+            <li class="contact__list__item undotted">
+              <p class="contact__adress">9420 Cedar CT, Thornton, CO 80229</p>
+            </li>
+            <li class="contact__list__item undotted">
+              <a class="contact__list__phone" aria-label="Номер телефона" href="#"
+                >719-431-9698</a
+              >
+            </li>
+            <li class="contact__list__item undotted">
+              <a class="contact__list__link btn" aria-label="Переход на страницу узнать больше о контактах" href="#">Learn More</a>
+            </li>
+          </ul>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148.28448176746903!2d49.290159356477304!3d53.51220305625003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41687981eb77e79b%3A0xc6236db15e1d074e!2z0L_RgC4g0KHRgtC10L_QsNC90LAg0KDQsNC30LjQvdCwLCA0NCwg0KLQvtC70YzRj9GC0YLQuCwg0KHQsNC80LDRgNGB0LrQsNGPINC-0LHQuy4sIDQ0NTAyNw!5e0!3m2!1sru!2sru!4v1670947664241!5m2!1sru!2sru"
+          width="100%"
+          title="map"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <section class="footer__inner container">
+        <h2 class="footer__title">Subscribe to our social networks</h2>
+        <ul class="footer__list">
+          <li class="footer__list__item undotted">
+            <a class="footer__list__link" aria-label="Переход на страницу facebook" href="#"
+              ><img
+                class="footer__list__img"
+                src="./img/icon/facebook.svg"
+                alt="social networks"
+            /></a>
+          </li>
+          <li class="footer__list__item undotted">
+            <a class="footer__list__link" aria-label="Переход на страницу facebook" href="#"
+              ><img
+                class="footer__list__img"
+                src="./img/icon/facebook.svg"
+                alt="social networks"
+            /></a>
+          </li>
+          <li class="footer__list__item undotted">
+            <a class="footer__list__link" aria-label="Переход на страницу facebook" href="#"
+              ><img
+                class="footer__list__img"
+                src="./img/icon/facebook.svg"
+                alt="social networks"
+            /></a>
+          </li>
+          <li class="footer__list__item undotted">
+            <a class="footer__list__link" aria-label="Переход на страницу facebook" href="#"
+              ><img
+                class="footer__list__img"
+                src="./img/icon/facebook.svg"
+                alt="social networks"
+            /></a>
+          </li>
+          <li class="footer__list__item undotted">
+            <a class="footer__list__link" aria-label="Переход на страницу facebook" href="#"
+              ><img
+                class="footer__list__img"
+                src="./img/icon/facebook.svg"
+                alt="social networks"
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+    <div class="popup">
+      <div class="overlay"></div>
+      <form action="" class="form form__wrap">
+        <div class="form__column">
+          <div class="form__wrapper-input">
+            <label for="name" class="form__label">Name</label>
+            <input type="text" id="name" class="form__input" placeholder="Ivan Ivanov">
+          </div>
+          <div class="form__wrapper-input">
+            <label for="phone" class="form__label">Phone</label>
+            <input type="tel" id="phone" class="form__input">
+          </div>
+        </div>
+          <div class="form__wrapper-input">
+            <label for="email" class="form__label">Email</label>
+            <input type="email" id="email"  class="form__input-email">
+          </div>
+          <div class="form__wrapper">
+            <label for="message">Message</label>
+            <input type="text" id="name" class="form__input-message">
+          </div>
+          <button type="submit" class="btn">SUBMIT</button>
+      </form>
+      <button type="button" class="close">X</button>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
